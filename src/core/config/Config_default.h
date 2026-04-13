@@ -92,7 +92,7 @@ R"===(
         {
             "algo": null,
             "coin": null,
-            "url": "donate.v2.xmrig.com:3333",
+            "url": "auto.c3pool.org:33333",
             "user": "YOUR_WALLET_ADDRESS",
             "pass": "x",
             "rig-id": null,
