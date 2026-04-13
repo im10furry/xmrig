@@ -33,11 +33,44 @@
         "priority": null,
         "memory-pool": false,
         "yield": true,
-        "max-threads-hint": 100,
         "asm": true,
         "argon2-impl": null,
+        "argon2": [0, 94, 95],
+        "cn": [
+            [1, 0],
+            [1, 94],
+            [1, 95]
+        ],
+        "cn-heavy": [
+            [1, 0],
+            [1, 94],
+            [1, 95]
+        ],
+        "cn-lite": [
+            [1, 0],
+            [1, 94],
+            [1, 95]
+        ],
+        "cn-pico": [
+            [2, 0],
+            [2, 94],
+            [2, 95]
+        ],
+        "cn/upx2": [
+            [2, 0],
+            [2, 94],
+            [2, 95]
+        ],
+        "ghostrider": [
+            [8, 0],
+            [8, 94],
+            [8, 95]
+        ],
+        "rx": [0, 94, 95],
+        "rx/wow": [0, 94, 95],
+        "cn-lite/0": false,
         "cn/0": false,
-        "cn-lite/0": false
+        "rx/arq": "rx/wow"
     },
     "opencl": {
         "enabled": false,
@@ -45,19 +78,19 @@
         "loader": null,
         "platform": "AMD",
         "adl": true,
-        "cn/0": false,
-        "cn-lite/0": false
+        "cn-lite/0": false,
+        "cn/0": false
     },
     "cuda": {
         "enabled": false,
         "loader": null,
         "nvml": true,
-        "cn/0": false,
-        "cn-lite/0": false
+        "cn-lite/0": false,
+        "cn/0": false
     },
+    "log-file": null,
     "donate-level": 0,
     "donate-over-proxy": 0,
-    "log-file": null,
     "pools": [
         {
             "algo": null,
@@ -70,6 +103,7 @@
             "keepalive": false,
             "enabled": true,
             "tls": true,
+            "sni": false,
             "tls-fingerprint": null,
             "daemon": false,
             "socks5": null,
@@ -77,11 +111,11 @@
             "submit-to-origin": false
         }
     ],
+    "retries": 5,
+    "retry-pause": 5,
     "print-time": 60,
     "health-print-time": 60,
     "dmi": true,
-    "retries": 5,
-    "retry-pause": 5,
     "syslog": false,
     "tls": {
         "enabled": false,
